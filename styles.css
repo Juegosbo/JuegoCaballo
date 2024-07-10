@@ -23,23 +23,23 @@ main {
     border: 2px solid #333;
     background-color: #fff;
     max-width: 800px;
+    position: relative;
+    height: 800px;
 }
 
 .horse {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 30px;
+    height: 50px;
     margin: 5px 0;
     background-color: #eee;
+    position: absolute;
+    width: 100%;
 }
 
-.horse span {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: #4CAF50;
-    border-radius: 50%;
+.horse img {
+    height: 50px;
     margin-right: 10px;
 }
 
