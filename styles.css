@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+#raceTrack {
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+    max-width: 800px;
+}
+
+.horse {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    margin: 5px 0;
+    background-color: #eee;
+}
+
+.horse span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+}
+
+#winners {
+    margin-top: 20px;
+}
+
+#winners p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
