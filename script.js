@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         let horseDiv = document.createElement('div');
         horseDiv.classList.add('horse');
         horseDiv.id = `horse${i}`;
-        horseDiv.style.top = `${i * 20}px`; // Espaciado entre caballos
-        horseDiv.innerHTML = `<img src="caballo.png" alt="Caballo ${i}"> Caballo ${i}`;
+        horseDiv.style.top = `${(i - 1) * 40}px`; // Espaciado entre caballos
+        horseDiv.innerHTML = `<img src="horse.png" alt="Caballo ${i}"> Caballo ${i}`;
         raceTrack.appendChild(horseDiv);
     }
 });
