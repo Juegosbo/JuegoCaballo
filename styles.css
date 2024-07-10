@@ -22,7 +22,8 @@ main {
     padding: 20px;
     border: 2px solid #333;
     background-color: #fff;
-    max-width: 800px;
+    max-width: 100%;
+    overflow: hidden;
     position: relative;
     height: 800px;
 }
@@ -70,4 +71,28 @@ footer {
 #winners p {
     font-size: 1.2em;
     margin: 5px 0;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+    #raceTrack {
+        height: 1200px; /* Ajusta la altura para permitir más espacio para los caballos en dispositivos móviles */
+    }
+
+    .horse {
+        height: 40px;
+    }
+
+    .horse img {
+        height: 40px;
+    }
+
+    button {
+        font-size: 0.8em;
+        padding: 8px 16px;
+    }
+
+    #winners p {
+        font-size: 1em;
+    }
 }
